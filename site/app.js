@@ -52,11 +52,11 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Ralph DAlmeida",
-        "age": 38,
+        "name": "Ronnie Geraghty",
+        "age": 24,
         "gender": "male",
-        "street": "34 Main Street",
-        "city": "Toronto",
+        "street": "17 Street Ln",
+        "city": "New York",
         "zipcode": "M5H 1T1"
       },
       "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D"],
